@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaraan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulir Pendaftaraan Esktrakulikuler</h2>
+        <form id="registration">
+            <label for="name">Nama Lengkap:</label>
+            <input type="text" id="name" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Nomor Telepon:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="name">Pilh Esktrakulikuler:</label>
+            <select name="eskul" id="eskul">
+                <option value="">Pilih</option>
+                <option value="">basket</option>
+                <option value="">futsal</option>
+                <option value="">taekwondo</option>
+                <option value="">sains club</option>
+                <option value="">rohis</option>
+            </select>
+
+            <div class="buttton-container">
+                <button type="submit">Submit</button>
+                <button type="reset">reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
